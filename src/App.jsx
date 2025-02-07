@@ -49,7 +49,7 @@ function App() {
                     </label>
                 </fieldset>
                 <fieldset>
-                    <legend>Jouw review:</legend>
+                    <legend>Jouw review</legend>
                     <label htmlFor="remark-field">
                         Opmerkingen:
                         <textarea

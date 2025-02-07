@@ -1,35 +1,59 @@
 body {
     padding: 20px;
+    background-color: #ffd7dd;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
     margin-bottom: 20px;
+    background-color: #ea4ea1;
+    border: none;
+    border-radius: 15px;
+    padding: 60px 40px 40px;
+    position: relative;
 }
 
 legend {
+    position: absolute;
+    top: 10px;
+    left: 30px;
     font-weight: bold;
+    font-size: 36px;
 }
 
 label {
-    display: block;
-    margin: 10px 0 10px 30px;
+    margin: 10px 0 10px 0;
 }
 
 input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
     margin-top: 10px;
     margin-left: 10px;
 }
 
 button {
     margin: 10px 0 10px 30px;
-    background-color: lightgray;
+    background-color: #3cc49b;
     border: none;
     border-radius: 5px;
     padding: 10px;
+    color: white;
 }
 
 textarea {
     display: block;
     margin-top: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 /*fieldset {*/
