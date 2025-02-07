@@ -1,1 +1,38 @@
-/*Schrijf hier jouw css voor jouw formulier*/
+body {
+    padding: 20px;
+}
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0 10px 30px;
+}
+
+input {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+button {
+    margin: 10px 0 10px 30px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+textarea {
+    display: block;
+    margin-top: 10px;
+}
+
+/*fieldset {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
